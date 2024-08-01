@@ -16,6 +16,28 @@ public:
     }
 };
 
+class Node
+{
+public:
+    int data;
+    Node *next;
+    int val;
+};
+class ListNode
+{
+public:
+    int data;
+    ListNode *next;
+    ListNode *prev;
+    int val;
+    ListNode(int val)
+    {
+        this->val = val;
+        this->next = NULL;
+        this->prev = NULL;
+    }
+};
+
 // Middle of the Linked List
 ListNode *middleNode(ListNode *head)
 {
