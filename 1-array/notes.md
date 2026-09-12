@@ -1,0 +1,2 @@
+1. look when we do like that int* newArr = new int[cap]; means newArr just a variable in stack memory and in Heap we have {0,0,0,0,} like that and if the function end the newArr variable automatic delete but the HEAP not so we have to do like delete[] arr old ok 
+Why in distrucktor used because if main end means object scope is end and now all memory distroy but only the HEAP that we alocate now by the help of distructor we can delete this one also ok 
